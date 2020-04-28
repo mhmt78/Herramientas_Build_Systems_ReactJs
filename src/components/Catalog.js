@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Header from '../header/Header';
+import Header from './Header';
 
 class Catalog extends Component {
     state = {
@@ -211,8 +211,8 @@ class Catalog extends Component {
                                                                     <img className="card-img-top" src={'../assets/images/' + product.image} alt="Card image cap"/>
                                                                     <div className="card-body">
                                                                         <h5 className="card-title">{product.name}</h5>
-                                                                        <p className="card-text"><strong>Precio:</strong>&nbsp;${product.price}.00</p>
-                                                                        <p className="card-text"><strong>Stock:</strong>&nbsp;{product.stock}</p>
+                                                                        <p className="card-text"><strong>Precio:</strong>&nbsp;S/ {product.price}.00</p>
+                                                                        <p className="card-text"><strong>Unidades Disponibles:</strong>&nbsp;{product.stock}</p>
                                                                         <div className="btn-group mt-1" role="group">
                                                                             <button type="button" className="btn btn-warning mr-1 btn-color-white" onClick={this.addToCart.bind(this, product)}>
                                                                                 <strong>Agregar</strong>
@@ -231,6 +231,7 @@ class Catalog extends Component {
                                             ) : (
                                                 <div className="row">
                                                     Cargando productos...
+                                                    
                                                 </div>
                                             )}
                                         </div>

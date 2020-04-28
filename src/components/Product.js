@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Header from '../header/Header';
+import Header from './Header';
 
 class Product extends Component {
     state = {
@@ -69,6 +69,9 @@ class Product extends Component {
                         <div className="col-12">
                             <div className="row">
                                 Cargando...
+                            </div>
+                            <div className="col-12">
+                                    <button type="button" className="btn btn-light" onClick={this.back.bind(this)}>Atrás</button>
                             </div>
                         </div>
                     )}

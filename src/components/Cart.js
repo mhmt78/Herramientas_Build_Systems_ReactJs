@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Header from '../header/Header';
+import Header from './Header';
 
 class Cart extends Component {
     state = {
