@@ -147,7 +147,7 @@ class Cart extends Component {
                                                                     <strong>Unidades:</strong>&nbsp;{product.quantity}
                                                                 </div>
                                                                 <div className="row">
-                                                                    <strong>Subtotal:</strong>&nbsp;${product.price}.00
+                                                                    <strong>Subtotal:</strong>&nbsp;S/ {product.price}.00
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -157,7 +157,7 @@ class Cart extends Component {
                                         </div>
                                         <div className="offset-lg-1 col-lg-5">
                                             <div className="row">
-                                                <h3>Total:&nbsp;${this.state.total}.00</h3>
+                                                <h3>Total:&nbsp;S/ {this.state.total}.00</h3>
                                             </div>
                                             <div className="row mb-1">
                                                 <div className="btn-group" role="group">

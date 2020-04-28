@@ -74,7 +74,7 @@ class Login extends Component {
                                                 className="form-control" 
                                                 id="email" 
                                                 name="email" 
-                                                placeholder="correo electronico"
+                                                placeholder="Email"
                                                 minLength="5" 
                                                 maxLength="50"
                                                 pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
@@ -89,7 +89,7 @@ class Login extends Component {
                                                 className="form-control" 
                                                 id="password" 
                                                 name="password" 
-                                                placeholder="*******"
+                                                placeholder="Password"
                                                 minLength="5" 
                                                 maxLength="50" 
                                                 required

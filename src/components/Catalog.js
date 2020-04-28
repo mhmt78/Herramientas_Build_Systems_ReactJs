@@ -190,7 +190,7 @@ class Catalog extends Component {
                                     </div>
                                     <div className="row">
                                         <div className="col-12">
-                                            <input className="form-control mr-sm-2" type="search" placeholder="Buscar porducto" onChange={this.filterList.bind(this)} />
+                                            <input className="form-control mr-sm-2" type="search" placeholder="Buscar producto" onChange={this.filterList.bind(this)} />
                                         </div>
                                     </div>
                                 </div>
